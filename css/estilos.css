@@ -69,7 +69,6 @@ header .profesion{
 }
 /*Main*/
 .main .acerca-de .contenedor{
-    border: 1px solid red;
     overflow: visible;
     position: relative;
 }
@@ -103,4 +102,146 @@ header .profesion{
     font-weight: 360;
     color: chocolate;
     padding-bottom: 40px;
+}
+.main .acerca-de .texto .bold{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(73, 163, 190);
+    text-decoration: underline;
+}
+.main .acerca-de .texto p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(90, 88, 88);
+    text-align: center;
+    padding-bottom: 40px;
+}
+/*Trabajos*/
+.main .trabajos{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.main .trabajos .titulo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+}
+.main .trabajos .contenedor-trabajos{
+    overflow: hidden;
+}
+.main .trabajos .trabajo{
+    width: 25%;
+    float: left;
+}
+.main .trabajos .thumb{
+    width: 80%;
+    margin: auto;
+}
+.main .trabajos img{
+    width: 100%;
+    vertical-align: top;
+}
+.main .trabajos .descripcion{
+    width: 100%;
+}
+.main .trabajos .nombre{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(73, 163, 190);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main .trabajos .categoria{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(90, 88, 88);
+    padding-bottom: 20px;
+}
+/*Footer Contacto*/
+footer .contacto .titulo{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(73, 163, 190);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .contacto .formulario{
+    width: 97%;
+    margin: auto;
+}
+footer .contacto .formulario .text{
+    float: left;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .contacto .formulario .email{
+    float: left;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer .contacto .formulario .mensaje{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer .contacto .formulario .panel-boton{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin: auto;
+}
+footer .contacto .formulario .panel-boton2{
+    width: 100px;
+    margin: auto;
+}
+footer .contacto .formulario input{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+footer .contacto .formulario textarea{
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+footer .contacto .formulario .boton{
+    width: 100px;
+    height: 35px;
+    font-size: 10px;
+    color: #fff;
+    background: rgb(73, 163, 190);
+    border: 0;
+}
+/*Footer Redes Sociales*/
+footer .redes-sociales{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+footer .redes-sociales .contenedor{
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+footer .redes-sociales .contenedor a{
+    font-size: 20px;
+    color: #fff;
+    padding: 30px;
 }
